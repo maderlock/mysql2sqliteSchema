@@ -1,0 +1,63 @@
+{
+    "hash": "fa000b59b1130f403de7e81da23b01ec",
+    "packages": [
+
+    ],
+    "packages-dev": [
+        {
+            "name": "hafriedlander/php-peg",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hafriedlander/php-peg",
+                "reference": "d77f8ee37b5314a7f0fee224a9c3c03409fe8f1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/hafriedlander/php-peg/archive/d77f8ee37b5314a7f0fee224a9c3c03409fe8f1f.zip",
+                "reference": "d77f8ee37b5314a7f0fee224a9c3c03409fe8f1f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "1348803064",
+            "bin": [
+                "cli.php"
+            ],
+            "type": "library",
+            "installation-source": "source",
+            "license": [
+                "MIT",
+                "GPLv2",
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Hamish Friedlander",
+                    "email": "hamish@silverstripe.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PEG (parsing expression grammar) compiler for PHP",
+            "homepage": "https://github.com/hafriedlander/php-peg",
+            "keywords": [
+                "PEG",
+                "parser",
+                "DSL",
+                "compiler"
+            ],
+            "support": {
+                "source": "https://github.com/hafriedlander/php-peg/tree/master",
+                "issues": "https://github.com/hafriedlander/php-peg/issues"
+            }
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hafriedlander/php-peg": 20
+    }
+}

@@ -1,9 +1,31 @@
 {
     "name": "maderlock/mysql-to-sqlite-schema",
+    "description":  "PHP component to convert mysql schema to SQLite schema",
+    "keywords":     ["mysql","sqlite","convert","schema"],
+    "homepage":     "https://github.com/maderlock/mysql2sqliteSchema",
+    "type":         "library",
+    "license":      ["MIT", "GPLv2", "BSD-3"],
+    "authors":      [
+        {
+            "name":      "Robert Egginton",
+            "email":     "web@maderlock.co.uk",
+            "role":      "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hafriedlander/php-peg"
+        }
+    ],
     "require": {
-        "php" : ">=5.3.0"
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "hafriedlander/php-peg": ">=1.0.0@dev"
     },
     "autoload": {
         "psr-0": {"Maderlock": "src/php/"}
     }
 }
+
